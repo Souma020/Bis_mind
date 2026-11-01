@@ -1,0 +1,218 @@
+/* Know Your BIS - Vodafone Inspired Dark Mode Overrides */
+[data-theme="dark"] {
+    --color-canvas: #191c1e;
+    --color-canvas-soft: #212427;
+    --color-ink: #f2f2f2;
+    --color-body: #a0a0a0;
+    --color-mute: #505458;
+    --color-border: #3b3f43;
+    --color-border-light: #2c3034;
+    --color-border-dark: #666c72;
+
+    --bg-main: var(--color-canvas);
+    --bg-card: #25282b;
+    --bg-header: #191c1e;
+    --text-main: #f2f2f2;
+    --text-muted: #a0a0a0;
+    --border-color: #3b3f43;
+
+    /* Primary Accent remains strictly Vodafone Red #e60000 */
+    --color-primary: #e60000;
+    --color-primary-hover: #b80000;
+}
+
+[data-theme="dark"] body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+}
+
+[data-theme="dark"] header.navbar {
+    background-color: #191c1e;
+    border-bottom: 1px solid #2c3034;
+}
+
+[data-theme="dark"] .nav-links {
+    background-color: #191c1e;
+}
+
+[data-theme="dark"] .nav-toggle {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .nav-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: #ffffff;
+}
+
+[data-theme="dark"] .hero, 
+[data-theme="dark"] .hero-band-dark {
+    background-color: #212427;
+    border: 1px solid #3b3f43;
+}
+
+[data-theme="dark"] .hero-search-box {
+    background: #25282b;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .hero-search-box input {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .hero-btn-standards {
+    background-color: #2c3136;
+    color: #f0f6fc;
+    border-color: #444c56;
+}
+
+[data-theme="dark"] .hero-btn-standards:hover {
+    background-color: #373e47;
+    border-color: #57606a;
+}
+
+[data-theme="dark"] .card {
+    background-color: #25282b;
+    border-color: #3b3f43;
+    color: #f2f2f2;
+}
+
+[data-theme="dark"] .card:hover {
+    border-color: #666c72;
+}
+
+[data-theme="dark"] .card-title {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .section-title {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .badge-voluntary,
+[data-theme="dark"] .badge-scheme,
+[data-theme="dark"] .badge-chip {
+    background-color: #212427;
+    color: #f2f2f2;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .badge-mandatory {
+    background-color: rgba(230, 0, 0, 0.2);
+    color: #ff6b6b;
+    border-color: #e60000;
+}
+
+[data-theme="dark"] .btn-outline,
+[data-theme="dark"] .btn-outline-dark {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #505458;
+}
+
+[data-theme="dark"] .btn-outline:hover,
+[data-theme="dark"] .btn-outline-dark:hover {
+    background-color: #ffffff;
+    color: #191c1e;
+}
+
+[data-theme="dark"] input[type="text"]:not(.hero-search-box input),
+[data-theme="dark"] input[type="search"]:not(.hero-search-box input),
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+    background-color: #212427;
+    color: #ffffff;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .hero-search-box input,
+[data-theme="dark"] .hero-search-box input[type="text"] {
+    background: transparent !important;
+    border: none !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+[data-theme="dark"] .chat-wrapper {
+    background-color: #25282b;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .chat-sidebar {
+    background-color: #1f2225;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .history-item {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .history-item:hover {
+    background-color: #2c3034;
+}
+
+[data-theme="dark"] .history-item.active {
+    background-color: #3b3f43;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .chat-main {
+    background-color: #25282b;
+}
+
+[data-theme="dark"] .message-bubble.user {
+    background-color: #33373b;
+    color: #ffffff;
+    border-color: #505458;
+}
+
+[data-theme="dark"] .message-bubble.assistant {
+    background-color: #1f2225;
+    border-color: #3b3f43;
+    color: #f2f2f2;
+}
+
+[data-theme="dark"] .chat-input-area {
+    background-color: #25282b;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .chat-input-area textarea {
+    background-color: #1f2225;
+    color: #ffffff;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .citations-box {
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .citation-chip {
+    background-color: #212427;
+    color: #e0e0e0;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .citation-chip:hover {
+    border-color: var(--color-primary);
+    color: #ff6b6b;
+}
+
+[data-theme="dark"] .message-bubble th {
+    background-color: #212427;
+    color: #ffffff;
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] .message-bubble td {
+    border-color: #3b3f43;
+}
+
+[data-theme="dark"] footer {
+    background-color: #151719;
+    border-top: 1px solid #2c3034;
+}
+
+[data-theme="dark"] .finder-minimal-banner {
+    background-color: #212427;
+    border-color: #3b3f43;
+}
